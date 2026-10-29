@@ -1,0 +1,6 @@
+{
+  "name": "command-post-relay",
+  "version": "0.3.0",
+  "description": "Lets your Agent Command Post on localhost:7600 send answers and new orders into Claude Code sessions on the same computer.",
+  "license": "MIT"
+}

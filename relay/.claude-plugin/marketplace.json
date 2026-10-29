@@ -1,0 +1,5 @@
+{
+  "name": "agent-command-post",
+  "owner": { "name": "Agent Command Post" },
+  "plugins": [{ "name": "command-post-relay", "source": "./command-post-relay" }]
+}

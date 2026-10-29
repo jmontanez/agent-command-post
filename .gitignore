@@ -1,0 +1,10 @@
+node_modules/
+*.log
+state.json
+config.json
+history.jsonl
+runs/
+*.bak
+*.acp-backup
+*.acp-tmp
+.claude/settings.local.json

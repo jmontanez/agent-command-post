@@ -1,0 +1,58 @@
+{
+  "port": 7600,
+  "lostCommsMinutes": 5,
+  "lostCommsInToolMinutes": 20,
+  "appLostCommsMinutes": 45,
+  "staleHours": 8,
+  "flagsHours": 24,
+  "showIdleProjects": true,
+  "desktopNotifications": true,
+  "ntfyTopic": "",
+  "ntfyIncludeDetails": false,
+  "lanAccess": false,
+  "accessKey": "",
+  "projects": [
+    {
+      "code": "SHOP",
+      "name": "Storefront",
+      "match": [
+        "storefront",
+        "shop"
+      ]
+    },
+    {
+      "code": "MOBILE",
+      "name": "Mobile app",
+      "match": [
+        "mobile-app",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "code": "DATA",
+      "name": "Data pipeline",
+      "match": [
+        "data-pipeline",
+        "etl"
+      ]
+    },
+    {
+      "code": "DOCS",
+      "name": "Docs site",
+      "match": [
+        "docs-site",
+        "docs"
+      ]
+    },
+    {
+      "code": "PROMO",
+      "name": "Marketing site",
+      "match": [
+        "marketing-site",
+        "landing"
+      ]
+    }
+  ],
+  "allowedHosts": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "agent-command-post",
+  "version": "0.2.0",
+  "description": "A tactical command post for your Claude Code agents. See who is working, who needs you, and who went silent, on one live map.",
+  "license": "MIT",
+  "bin": { "agent-command-post": "server.js" },
+  "scripts": {
+    "start": "node server.js",
+    "install-hooks": "node install.js",
+    "uninstall-hooks": "node install.js --uninstall",
+    "demo": "node demo.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["claude-code", "claude", "agents", "hooks", "dashboard", "ai-agents"]
+}
